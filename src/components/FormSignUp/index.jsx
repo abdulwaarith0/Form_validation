@@ -1,6 +1,6 @@
 import React from "react";
 import UseForm from "../UseForm";
-import validate from "../helpers/validateInfo";
+import { ValidateInfo as validate } from "../helpers/validateInfo";
 import "../Form/style.css";
 
 const FormSignUp = ({ submitForm }) => {
